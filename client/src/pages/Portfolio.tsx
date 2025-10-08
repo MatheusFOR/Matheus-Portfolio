@@ -233,9 +233,7 @@ export default function Portfolio() {
 
           <div className="grid lg:grid-cols-[55%_45%] gap-12">
             <div>
-              <ContactForm
-                onSubmit={(data) => console.log("Form submitted:", data)}
-              />
+              <ContactForm />
             </div>
 
             <div className="space-y-6">
