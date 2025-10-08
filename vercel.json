@@ -3,17 +3,30 @@
   "builds": [
     {
       "src": "server/index.ts",
-      "use": "@vercel/node",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
       "config": {
-        "includeFiles": ["dist/public/**"],
-        "buildCommand": "npm run build"
+        "distDir": "dist/public",
+        "buildCommand": "vite build"
       }
     }
   ],
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/api/(.*)",
       "dest": "server/index.ts"
+    },
+    {
+      "src": "/assets/(.*)",
+      "headers": { "cache-control": "s-maxage=31536000, immutable" },
+      "dest": "/assets/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
