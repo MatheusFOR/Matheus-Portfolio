@@ -25,6 +25,14 @@
       "dest": "/assets/$1"
     },
     {
+      "src": "/matheus-perfil.jpg",
+      "dest": "/matheus-perfil.jpg"
+    },
+    {
+      "src": "/favicon.png",
+      "dest": "/favicon.png"
+    },
+    {
       "src": "/(.*)",
       "dest": "/index.html"
     }
