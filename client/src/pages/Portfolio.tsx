@@ -5,7 +5,7 @@ import InteractiveProjectCard from "@/components/InteractiveProjectCard";
 import AnimatedSkillCard from "@/components/AnimatedSkillCard";
 import ExperienceCard from "@/components/ExperienceCard";
 import ContactForm from "@/components/ContactForm";
-import { Code, Palette, Wrench, Mail, MapPin, Phone, Terminal } from "lucide-react";
+import { Code, Palette, Wrench, Mail, MapPin, Phone, Terminal, Database } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function Portfolio() {
