@@ -153,23 +153,13 @@ export default function Portfolio() {
             />
             <AnimatedSkillCard
               title="Banco de Dados"
-              icon={Wrench}
+              icon={database}
               skills={[
                 { name: "SQL Server", level: 5 },
                 { name: "MySQL", level: 4 },
                 { name: "PostgreSQL", level: 3 },
                 { name: "MariaDB", level: 3 },
                 { name: "MongoDB", level: 3 },
-              ]}
-            />
-            <AnimatedSkillCard
-              title="Design"
-              icon={Palette}
-              skills={[
-                { name: "Figma", level: 5 },
-                { name: "UI/UX Design", level: 4 },
-                { name: "Branding", level: 3 },
-                { name: "Illustration", level: 3 },
               ]}
             />
             <AnimatedSkillCard
@@ -187,7 +177,17 @@ export default function Portfolio() {
                 { name: "TDD, DDD, BDD, SOLID", level: 3 },                                
               ]}
             />
-            
+            <AnimatedSkillCard
+              title="Design"
+              icon={Palette}
+              skills={[
+                { name: "Figma", level: 5 },
+                { name: "UI/UX Design", level: 4 },
+                { name: "Branding", level: 3 },
+                { name: "Illustration", level: 3 },
+              ]}
+            />
+                        
           </div>
         </div>
       </section>
