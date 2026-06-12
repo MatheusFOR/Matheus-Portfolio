@@ -153,7 +153,7 @@ export default function Portfolio() {
             />
             <AnimatedSkillCard
               title="Banco de Dados"
-              icon={database}
+              icon={Database}
               skills={[
                 { name: "SQL Server", level: 5 },
                 { name: "MySQL", level: 4 },
