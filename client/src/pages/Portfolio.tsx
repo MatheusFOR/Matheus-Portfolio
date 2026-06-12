@@ -133,10 +133,10 @@ export default function Portfolio() {
               title="Frontend"
               icon={Code}
               skills={[
-                { name: "React.js / React Native ", level: 5 },
+                { name: "React.js / React Native / Hooks ", level: 5 },
                 { name: "JavaScript / TypeScript", level: 4 },
-                { name: "HTML5 / CSS3 / SASS", level: 5 },
-                { name: "Tailwind CSS / Bootstrap", level: 4 },
+                { name: "HTML5 / CSS3 / SASS / Styled-Components", level: 5 },
+                { name: "Tailwind CSS / Bootstrap / jQuery", level: 4 },
                 { name: "Redux.js", level: 4 },
               ]}
             />
@@ -144,10 +144,22 @@ export default function Portfolio() {
               title="Backend"
               icon={Terminal}
               skills={[
+                { name: "Java", level: 5 },
+                { name: "Node.js", level: 5 },
+                { name: "Spring Boot", level: 4 },
+                { name: "Spring Framework", level: 4 },
+                { name: "PHP / Laravel", level: 3 },
+              ]}
+            />
+            <AnimatedSkillCard
+              title="Banco de Dados"
+              icon={Wrench}
+              skills={[
                 { name: "SQL Server", level: 5 },
-                { name: "MongoDB", level: 5 },
-                { name: "PostgreSQL", level: 4 },
-                { name: "Node.js", level: 4 },
+                { name: "MySQL", level: 4 },
+                { name: "PostgreSQL", level: 3 },
+                { name: "MariaDB", level: 3 },
+                { name: "MongoDB", level: 3 },
               ]}
             />
             <AnimatedSkillCard
@@ -166,11 +178,16 @@ export default function Portfolio() {
               skills={[
                 { name: "Git / GitHub / Bitbucket", level: 5 },
                 { name: "Linux", level: 4 },
+                { name: "NGINX / Apache", level: 4 },
                 { name: "Docker", level: 3 },
                 { name: "Cloud AWS/Firebase", level: 3 },
-                { name: "Scrum / Kanban", level: 3 },
+                { name: "CI/CD", level: 3 },
+                { name: "WordPress", level: 3 },
+                { name: "Scrum / Kanban", level: 4 },
+                { name: "TDD, DDD, BDD, SOLID", level: 3 },                                
               ]}
             />
+            
           </div>
         </div>
       </section>
